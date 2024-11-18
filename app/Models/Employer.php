@@ -18,6 +18,6 @@ class Employer extends Model
 
     public function jobs(): HasMany
     {
-        return $this->hasmMany(Job::class);
+        return $this->hasMany(Job::class);
     }
 }
